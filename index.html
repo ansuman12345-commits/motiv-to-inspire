@@ -1,0 +1,52 @@
+<hml>
+	<head>
+		<title>mission-motivation</title>
+	</head>
+	<body >
+		<div class="flexing">
+			<img src="C:\Users\hp\Downloads\tunnel-7826204_1280.jpg">
+			<div class="title">home</div>
+			<div class="title" onclick="show1()">contents</div>
+			<div class="title" onclick="show2()">about us</div>
+		</div>
+		<h1>hi! how are you?</h1>
+		<p>click the button below, we have a message for you!</p>
+		<button id="btn" onclick="show()">click to see secret code!</button>
+		<p>this is a website for you so that you get motivation and get inspiration for your success. it is even easy to succeed than to keep regretting.</p>
+		<h1>more coming soon! so stay tuned!</h1>
+	</body>
+	<style>
+		img{
+			width: 90px;
+		}
+		div{
+			background-color: black;
+			display: flex;
+			padding: 10px;
+			color: black;
+			color: white;
+			font-style: italic;
+		};
+		div.title{
+			padding: 10px;
+		}
+		body{
+			padding: 20px;
+		};
+		button{
+			background-color: yellow;
+			border-radius: 20px;
+		}
+	</style>
+	<script>
+		function show2(){
+			document.write("<h1>about us</h1> <p>we are expecting to create a website that helps other people to get motivated and stay inspired this is our sole initiative and nothing more than that.</p> <p>your dear</p> <b>Ansuman Dash and his team</b>");
+		};
+		function show1(){
+			document.write("<h1>coming soon.....</h1>");
+		};
+		function show(){
+			alert("!you are the best!");
+		}
+	</script>
+</html>
